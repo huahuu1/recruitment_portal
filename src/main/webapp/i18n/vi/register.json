@@ -1,0 +1,24 @@
+{
+  "register": {
+    "title": "Registration",
+    "form": {
+      "button": "Registration"
+    },
+    "messages": {
+      "validate": {
+        "login": {
+          "required": "You must enter an username.",
+          "minlength": "Username must be at least 5 character.",
+          "maxlength": "Username must not exceed 50 characters.",
+          "pattern": "Your username is invalid."
+        }
+      },
+      "success": "<strong>Sign Up Success!</strong> Please check your mailbox to confirm your account.",
+      "error": {
+        "fail": "<strong>Registration failed!</strong> Please try again later.",
+        "userexists": "<strong>This username is already taken!</strong> Please choose a different username.",
+        "emailexists": "<strong>This e-mail is already taken!</strong> Please enter another email."
+      }
+    }
+  }
+}
